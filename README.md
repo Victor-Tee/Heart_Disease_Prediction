@@ -46,7 +46,8 @@ One-Hot Encoding: Applied One-Hot Encoding to nominal categorical features (cp, 
 
 Feature Scaling: Used StandardScaler to normalize all continuous numerical features (age, chol, trestbps, etc.). This prevents features with larger numerical scales from unfairly dominating the model's objective function.
 
-Train-Test Split: The dataset was split into 80% training and 20% testing data, ensuring stratification (stratify=y) to maintain the class balance in both sets.
+Train-Test Split: The dataset was split into 80% training and 20% testing data, ensuring stratification (stratify=y) to maintain the class balance in both sets. 
+<img width="916" height="834" alt="heatmap" src="https://github.com/user-attachments/assets/abc5a345-317a-4c44-9145-41e0cbd5eeec" />
 
 #### C. Model Selection and Hyperparameter Tuning
 Three models were tested: Logistic Regression (as a baseline), Random Forest, and XGBoost.
@@ -54,6 +55,8 @@ Three models were tested: Logistic Regression (as a baseline), Random Forest, an
 Model of Choice: XGBoost (Extreme Gradient Boosting) consistently achieved the highest discriminative power.
 
 Optimization: Hyperparameter tuning was performed using GridSearchCV with 5-fold Cross-Validation on the training data. Crucially, the optimization score was set to maximize the Recall and ROC-AUC.
+<img width="695" height="545" alt="boxplot" src="https://github.com/user-attachments/assets/74ac9366-75c9-431f-a908-966740a3cd1f" />
+
 
  Sample tuning code (demonstrative)
 from sklearn.model_selection import GridSearchCV
