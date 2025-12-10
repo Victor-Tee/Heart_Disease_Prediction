@@ -99,6 +99,7 @@ thal (Thalassemia)
 exang (Exercise-induced Angina)
 
 Local Interpretability: SHAP allows for the explanation of individual patient predictions, showing which specific feature values pushed a patient towards a high-risk or low-risk outcome, providing direct insight for the clinician.
+<img width="695" height="545" alt="histogram" src="https://github.com/user-attachments/assets/63b60378-4a9d-4b35-9d5d-29b4f8b59d97" />
 
 ### 7. Conclusion and Next Steps
 The project successfully built an interpretable machine learning pipeline that can predict heart disease risk with a high degree of confidence and, critically, high Recall.
