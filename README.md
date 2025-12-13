@@ -124,3 +124,9 @@ XGBoost
 Matplotlib & Seaborn (for EDA and visualization)
 
 SHAP (for model interpretability)
+
+## Author
+
+### Victor Olarinde
+
+November, 2025
